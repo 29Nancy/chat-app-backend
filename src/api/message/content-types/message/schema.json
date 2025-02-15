@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "messages",
+  "info": {
+    "singularName": "message",
+    "pluralName": "messages",
+    "displayName": "Message",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "content": {
+      "type": "text"
+    },
+    "Time": {
+      "type": "datetime"
+    }
+  }
+}
